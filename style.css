@@ -21,3 +21,26 @@ body {
   background: #6966ff;
   border-radius: 7.29px;
 }
+.px-8 {
+  padding: 0 2rem;
+}
+.py-8 {
+  padding: 3rem 0;
+}
+.h1-font {
+  font-family: roboto;
+  font-weight: 700;
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1140px;
+  }
+}
+@media (min-width: 768px) {
+  .py-md-8 {
+    padding: 6rem 0;
+  }
+  .px-md-8 {
+    padding: 0 8rem;
+  }
+}
