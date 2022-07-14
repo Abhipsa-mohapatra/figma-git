@@ -7,17 +7,22 @@ body {
   background-color: #1c1c28;
   font-family: monospace;
 }
+
 .text-color {
   color: #c8c7d8;
 }
-.font-navbar {
+/* .font-navbar {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
+} */
+@font-face {
+  font-family: circular-std;
+  src: url(assets/circular-std-medium-500.ttf);
 }
 .btn-font-family {
-  font-family: roboto;
+  font-family: circular-std;
   background: #6966ff;
   border-radius: 7.29px;
 }
