@@ -11,12 +11,14 @@ body {
 .text-color {
   color: #c8c7d8;
 }
-/* .font-navbar {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
+.fs-20 {
+  font-size: 20px;
+  line-height: 32px;
+}
+.fs-18 {
+  font-size: 18px;
   line-height: 24px;
-} */
+}
 @font-face {
   font-family: circular-std;
   src: url(assets/circular-std-medium-500.ttf);
@@ -33,19 +35,23 @@ body {
   padding: 3rem 0;
 }
 .h1-font {
-  font-family: roboto;
+  font-family: circular-std;
+  font-size: 80px;
   font-weight: 700;
+  line-height: 88px;
+  letter-spacing: -0.022em;
 }
+
 @media (min-width: 1200px) {
   .container {
-    width: 1140px;
+    width: 1040px;
   }
 }
 @media (min-width: 768px) {
   .py-md-8 {
-    padding: 6rem 0;
+    padding: 5rem 0 !important;
   }
-  .px-md-8 {
-    padding: 0 8rem;
+  .pt-md-8 {
+    padding: 5rem 0 !important;
   }
 }
