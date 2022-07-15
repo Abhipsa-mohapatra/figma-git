@@ -7,6 +7,13 @@ body {
   background-color: #1c1c28;
   font-family: monospace;
 }
+@font-face {
+  font-family: circular-std;
+  src: url(assets/circular-std-medium-500.ttf);
+}
+.font-family {
+  font-family: circular-std;
+}
 
 .text-color {
   color: #c8c7d8;
@@ -18,10 +25,6 @@ body {
 .fs-18 {
   font-size: 18px;
   line-height: 24px;
-}
-@font-face {
-  font-family: circular-std;
-  src: url(assets/circular-std-medium-500.ttf);
 }
 .btn-font-family {
   font-family: circular-std;
@@ -39,6 +42,12 @@ body {
   font-size: 80px;
   font-weight: 700;
   line-height: 88px;
+  letter-spacing: -0.022em;
+}
+.h3-f0nt {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
   letter-spacing: -0.022em;
 }
 
