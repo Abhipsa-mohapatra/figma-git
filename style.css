@@ -7,6 +7,7 @@ body {
   background-color: #1c1c28;
   font-family: monospace;
 }
+/* font fsmily  */
 @font-face {
   font-family: circular-std;
   src: url(assets/circular-std-medium-500.ttf);
@@ -14,29 +15,39 @@ body {
 .font-family {
   font-family: circular-std;
 }
-
+/* colors  */
 .text-color {
   color: #c8c7d8;
 }
+.card-bg {
+  background-color: #393953;
+  color: #fff;
+  border-radius: 16px;
+}
+.card-tc {
+  color: #a59eba;
+}
+
+/* font sizes  */
 .fs-20 {
   font-size: 20px;
+  line-height: 32px;
+}
+.fs-24 {
+  font-size: 24px;
   line-height: 32px;
 }
 .fs-18 {
   font-size: 18px;
   line-height: 24px;
+  letter-spacing: -0.011em;
 }
 .btn-font-family {
   font-family: circular-std;
   background: #6966ff;
   border-radius: 7.29px;
 }
-.px-8 {
-  padding: 0 2rem;
-}
-.py-8 {
-  padding: 3rem 0;
-}
+
 .h1-font {
   font-family: circular-std;
   font-size: 80px;
@@ -44,11 +55,18 @@ body {
   line-height: 88px;
   letter-spacing: -0.022em;
 }
-.h3-f0nt {
+.h3-font {
   font-weight: 700;
   font-size: 40px;
   line-height: 48px;
   letter-spacing: -0.022em;
+}
+/* padding  */
+.px-8 {
+  padding: 0 2rem;
+}
+.py-8 {
+  padding: 3rem 0;
 }
 
 @media (min-width: 1200px) {
@@ -60,7 +78,7 @@ body {
   .py-md-8 {
     padding: 5rem 0 !important;
   }
-  .pt-md-8 {
-    padding: 5rem 0 !important;
+  .pb-md-8 {
+    padding-bottom: 5rem !important;
   }
 }
