@@ -15,6 +15,28 @@ body {
 .font-family {
   font-family: circular-std;
 }
+@font-face {
+  font-family: Nanum Pen;
+  src: url(assets/NanumPenScript-Regular.ttf);
+}
+.font-family-np {
+  font-family: Nanum Pen;
+}
+.fs-np {
+  font-size: 64px;
+  line-height: 80px;
+}
+.logo {
+  width: 75px;
+  height: 44px;
+}
+.line {
+  width: 115px;
+}
+.down-arrow {
+  width: 20px;
+  height: 50px;
+}
 /* colors  */
 .text-color {
   color: #c8c7d8;
@@ -27,6 +49,21 @@ body {
 .card-tc {
   color: #a59eba;
 }
+.bg-li-color {
+  background-color: #1c1c28;
+}
+.border-color {
+  border-color: #393953 !important;
+}
+.bg-grad {
+  background: linear-gradient(
+    325.79deg,
+    #6966ff 24.5%,
+    rgba(105, 102, 255, 0.36) 117.69%
+  );
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+}
 
 /* font sizes  */
 .fs-20 {
@@ -38,7 +75,7 @@ body {
   line-height: 32px;
 }
 .fs-18 {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 24px;
   letter-spacing: -0.011em;
 }
@@ -50,10 +87,10 @@ body {
 
 .h1-font {
   font-family: circular-std;
-  font-size: 80px;
+  font-size: 40px;
   font-weight: 700;
-  line-height: 88px;
-  letter-spacing: -0.022em;
+  line-height: 48px;
+  letter-spacing: -0.021em;
 }
 .h3-font {
   font-weight: 700;
@@ -80,5 +117,28 @@ body {
   }
   .pb-md-8 {
     padding-bottom: 5rem !important;
+  }
+  .h1-font {
+    font-size: 80px;
+    line-height: 88px;
+    font-family: circular-std;
+    font-weight: 700;
+    letter-spacing: -0.022em;
+  }
+  .logo {
+    width: 112px;
+    height: 65px;
+  }
+  .line {
+    width: 277px;
+  }
+  .down-arrow {
+    width: 32px;
+    height: 100px;
+  }
+  .fs-18 {
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.011em;
   }
 }
