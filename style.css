@@ -102,10 +102,6 @@ body {
 .px-8 {
   padding: 0 2rem;
 }
-.py-8 {
-  padding: 3rem 0;
-}
-
 @media (min-width: 1200px) {
   .container {
     width: 1040px;
