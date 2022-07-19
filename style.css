@@ -138,3 +138,20 @@ body {
     letter-spacing: -0.011em;
   }
 }
+
+.accordion-button,
+.accordion-button:not(.collapsed),
+.accordion-item {
+  background-color: #1c1c28;
+  color: #fff;
+}
+.accordion-item {
+  border: 1px solid #393953;
+}
+
+.accordion-button:focus {
+  box-shadow: 0 0 5px 0 #393953;
+}
+.accordion-button::after{
+ 
+}
